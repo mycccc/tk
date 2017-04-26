@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Uland_open_tkzs
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
 // @match        http://uland.taobao.com/coupon/edetail*
@@ -19,8 +19,8 @@
 //window.open('https://detail.taobao.com/item.htm?id=' +encodeURIComponent(document.location.href));
     // Your code here...
    
-    window.location.href='http://cha.taokezhushou.com/?url=' +encodeURIComponent('https://detail.taobao.com/item.htm?id=' +eg);
-    
+    //window.location.href='http://cha.taokezhushou.com/?url=' +encodeURIComponent('https://detail.taobao.com/item.htm?id=' +eg);
+    window.location.href='https://detail.taobao.com/item.htm?id=' +eg;
 })();
 
 function Request(strName)
