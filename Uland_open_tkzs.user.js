@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  try to take over the world!
 // @author       You
-// @match        http://uland.taobao.com/coupon/edetail*
+// @match        http*://uland.taobao.com/coupon/edetail*
 // @grant        none
 // ==/UserScript==
 
